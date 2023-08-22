@@ -1,0 +1,30 @@
+
+.container{
+    
+    
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 20px;
+}
+.top img{
+    width: 200px;
+}
+.menu{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    background-color: gray;
+    height: 50px;
+    align-items: center;
+}
+.menu a{
+    text-decoration:  none;
+    color: white;
+    padding: 5px 10px;
+}
+.menu a:hover{
+    background-color: black;
+}
