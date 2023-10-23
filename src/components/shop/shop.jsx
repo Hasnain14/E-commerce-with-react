@@ -1,12 +1,9 @@
 
-import React, { useState } from "react";
+import  { useState } from "react";
 import "./shop.css"
 import data from "../../products.json"
 import Product from "../product/product";
 import Cart from "../cart/cart";
-
-
-
 
 const Shop = () => {
     const [product, SetProduct] = useState(data.slice(0,10))
@@ -17,7 +14,6 @@ const Shop = () => {
         const newCart = [...cart, addedProduct];
         setCart(newCart);
     }
-
 // console.log(product)
     return (
        <div className="shop_container">
