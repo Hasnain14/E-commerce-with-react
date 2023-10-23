@@ -1,0 +1,16 @@
+
+.heading_cart{
+   text-align: center;
+   font-size: 25px;
+   font-weight: 900;
+   font-style: italic;
+   color: rgb(2, 18, 24);
+}
+.cart h5{
+    padding-bottom: 15px;
+}
+.total_cost{
+    border-top: 1px solid red;
+    color: rgb(212, 32, 32);
+    font-size: 20px;
+}
