@@ -11,12 +11,12 @@
     display: flex;
     align-items: center;
 }
-img{
+.product_image img{
     width: 200px;
     height: 200px;
     transition: .5s;
 }
-img:hover{
+.product_image img:hover{
     scale: 1.1;
 }
 .product{

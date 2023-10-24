@@ -2,8 +2,10 @@
     display: flex;
     margin: 0 0% 0 5% ;
 }
-
+.product_show{
+    border-right: 1px solid gray;
+}
 .cart{
-    border-left: 1px solid rgb(95, 94, 94);
     width: 20vw;
+    padding-left: 10px;
 }
